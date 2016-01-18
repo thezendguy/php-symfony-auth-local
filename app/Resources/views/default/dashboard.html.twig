@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block body %}
+    <div id="wrapper">
+        <div id="container">
+            <h2>Dashboard</h2>
+            Logged in as: {{ user.username }}
+            <br>
+            <br>
+            <a href="/logout">Logout</a>
+        </div>
+    </div>
+{% endblock %}
